@@ -6,8 +6,12 @@ body {
     background: url('/media/julia-florczak-Y6O6PHJRQms-unsplash.jpg') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
-    color: #555;
+    color: black;
     font-family: 'Rubik', sans-serif;
+}
+
+h1 {
+    color: orange;
 }
 
 /* from Bulma */
@@ -174,6 +178,61 @@ input[name='q']::placeholder {
     overflow-y: auto;
 }
 
+
+/* Footer customization */
+.page-footer {
+    background-color: black;
+  
+  }
+  
+  .footer-content {
+    background-color: black;
+    color: white;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+  
+  .fa-envelope {
+    margin-right: 6px;
+    margin-left: 8px;
+  }
+  
+  .form-control {
+    margin-right: 4px;
+    color: white;
+  }
+  
+  .email-submit-button {
+    height: 48px;
+    margin-left: 4px;
+  }
+  
+  .submit-button {
+    color: black;
+  }
+  
+  .social-links {
+    display: inline-flex;
+    float: right;
+  }
+  
+  .social-links li a i {
+    font-size: 30px;
+    color: white;
+    margin-right: 20px;
+    padding-top: 2rem;
+  }
+  
+  .social-links i:hover {
+    color: white;
+  }
+  
+  .disclaimer {
+    padding-top: 2rem;
+  }
+  
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
