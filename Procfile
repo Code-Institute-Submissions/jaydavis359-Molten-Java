@@ -1,0 +1,1 @@
+web gunicorn molten_java.wsgi:application
