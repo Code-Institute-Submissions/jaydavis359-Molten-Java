@@ -210,10 +210,13 @@ input[name='q']::placeholder {
     overflow-y: auto;
 }
 
-
-/* Footer customization */
+.form-control{
+    color: black !important;
+}
+  /* Footer customization */
 .page-footer {
     background-color: black;
+  
   }
   
   .footer-content {
@@ -228,6 +231,11 @@ input[name='q']::placeholder {
   .fa-envelope {
     margin-right: 6px;
     margin-left: 8px;
+  }
+  
+  .form-control {
+    margin-right: 4px;
+    color: white;
   }
   
   .email-submit-button {
@@ -255,9 +263,6 @@ input[name='q']::placeholder {
     color: white;
   }
   
-  .disclaimer {
-    padding-top: 2rem;
-  }
   
 /* -------------------------------- Media Queries */
 
