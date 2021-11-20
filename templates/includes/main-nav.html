@@ -2,7 +2,7 @@
     <ul class="navbar-nav w-auto mx-auto">
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="all-products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                All Products
+                Products
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
                 <a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item">By Price</a>
@@ -14,11 +14,11 @@
 
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="coffee-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Coffee
+                Shop Coffee
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="coffee-link">
                 <a href="{% url 'products' %}?category=coffee_beans" class="dropdown-item">Coffee Beans</a>
-                <a href="{% url 'products' %}?category=ground_coffee" class="dropdown-item">Ground Coffee</a>
+                <a href="{% url 'products' %}?category=cold_brew" class="dropdown-item">Cold Brew</a>
                 <a href="{% url 'products' %}?category=pour_over" class="dropdown-item">Pour Over</a>
                 <a href="{% url 'products' %}?category=coffee_beans,ground_coffee,pour_over" class="dropdown-item">All Coffee</a>
             </div>
@@ -35,16 +35,10 @@
             </div>
         </li>
 
-        <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black" href="#" id="specials-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Special Offers
-            </a>
-            <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="{% url 'products' %}?category=new_arrivals" class="dropdown-item">New Arrivals</a>
-                <a href="{% url 'products' %}?category=deals" class="dropdown-item">Deals</a>
-                <a href="{% url 'products' %}?category=clearance" class="dropdown-item">Clearance</a>
-                <a href="{% url 'products' %}?category=new_arrivals,deals,clearance" class="dropdown-item">All Specials</a>
-            </div>
+        <li>
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'blog' %}">Blog</a>
         </li>
+
+        
     </ul>
 </div>

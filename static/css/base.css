@@ -3,16 +3,21 @@ html {
 }
 
 body {
-    background: url('/media/julia-florczak-Y6O6PHJRQms-unsplash.jpg') no-repeat center center fixed;
+    background: url('/media/janko-ferlic-h9Iq22JJlGk-unsplash.jpg') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
-    color: black;
-    font-family: 'Rubik', sans-serif;
+    color: white;
+    font-family: 'Roboto', sans-serif;
 }
 
 h1 {
-    color: orange;
+    color: white;
 }
+
+a {
+    color: white;
+}
+
 
 /* from Bulma */
 .icon {
@@ -31,8 +36,17 @@ h1 {
     width: fit-content;
 }
 
+.main-logo-link:hover {
+    color: #fd8026;
+}
+
+.fa-mug-hot:before {
+    padding: 1rem;
+}
+
+
 .shop-now-button {
-    background: black;
+    background: #fd8026;
     color: white;
     min-width: 260px;
 }
@@ -77,13 +91,18 @@ h1 {
     background: #000 !important;
 }
 
+.bg-warning {
+    background-color: #fd8026 !important;
+}
+
 .overlay {
 	height: 100%;
 	width: 100%;
 	top: 0;
 	left: 0;
 	position: fixed;
-	background: white;
+	background: gray;
+    opacity: 0.5;
 	z-index: -1;
 }
 
@@ -110,10 +129,23 @@ input[name='q']::placeholder {
     color: #aab7c4;
 }
 
+.about-photo {
+    width: 90%;
+    height: 90%;
+    object-fit: contain;
+    padding-top: 2rem;
+}
+
+.about-text {
+    padding-top: 2rem;
+    text-align: justify;
+}
+
 /* ------------------------------- bootstrap toasts */
 
 .message-container {
     position: fixed;
+    max-width: 25%;
     top: 72px;
     right: 15px;
     z-index: 99999999999;
@@ -182,7 +214,6 @@ input[name='q']::placeholder {
 /* Footer customization */
 .page-footer {
     background-color: black;
-  
   }
   
   .footer-content {
@@ -197,11 +228,6 @@ input[name='q']::placeholder {
   .fa-envelope {
     margin-right: 6px;
     margin-left: 8px;
-  }
-  
-  .form-control {
-    margin-right: 4px;
-    color: white;
   }
   
   .email-submit-button {

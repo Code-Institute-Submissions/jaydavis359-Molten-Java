@@ -2,26 +2,56 @@
 {% load static  %}
 
 {% block page_header %}
-    <div class="container header-container">
-        <div class="row">
-            <div class="col"></div>
-        </div>
+<div class="container header-container">
+    <div class="row">
+        <div class="col"></div>
     </div>
+</div>
 {% endblock %}
 
 {% block content %}
-    <div class="container h-100">
-        <div class="row">
-            <div class="col-7 col-md-6 my-auto">
-                <h1 class="display-4 logo-font text-black">
-                    Artisan Coffee to your Door!
-                </h1>
-                <div class="my-5">
-                    <h4>
-                        <a href="{% url 'products' %}" class="shop-now-button btn btn-lg rounded-0 text-uppercase py-3">Order Now!</a>
-                    </h4>
-                </div>
+<div class="container h-100">
+    <div class="row">
+        <div class="container-fluid my-auto">
+            <h1 class="display-4 logo-font text-white text-center">
+                Just Great Coffee!
+            </h1>
+            <div class="text-center">
+                <h4>
+                    <a href="{% url 'products' %}"
+                        class="shop-now-button btn btn-lg rounded-0 text-uppercase py-3">Order Now!</a>
+                </h4>
             </div>
         </div>
     </div>
+</div>
+<hr>
+<div>
+    <h2 class="page-heading text-center">About Molten Java</h2>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="container col-lg-6 sm-12">
+            <img src="media/rawkkim-hwYwbz7TAhU-unsplash.jpg" class="about-photo" alt="Inside coffee shop">
+        </div>
+        <div class="container col-lg-6 sm-12 about-text">
+            <p>
+                Molten Java is a Cork based Coffee Company specializing in small-batch coffee roasting and espresso
+                preparation.
+                <p>
+                    Our focus is always on the finished coffee's product in the cup. We brew in very small batches, On
+                    really traditional machines, Using methods honed over the centuries.
+                </p>
+                <p>
+                    Our method of roasting coffee is on a traditional cast iron coffee roaster built in 1930s This is
+                    not the most efficient way of roasting coffee; but it is gentle, it takes time and it takes the
+                    human touch. Throughout the coffee industry large & small, this method is regarded by all, to be the
+                    best way of roasting. Bringing out wonderful tastes and flavours from each and every coffee bean. We
+                    roast only high grown, Arabica green beans .
+                </p>
+            </p>
+        </div>
+    </div>
+</div>
+
 {% endblock %}
