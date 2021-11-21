@@ -1,6 +1,6 @@
 # Molten Java
 
-![Heading Responsive image](Testing/homepage.jpg)
+![Heading Responsive image](testing/homepage.jpg)
 
 [View the Live website here](https://jay359-molten-java.herokuapp.com/)
 
@@ -89,4 +89,4 @@ This website serves as en e-commerce platform for the business, as well as being
 
 ## Testing
 
-* Details can be found in a separate [Testing](Testing.md/testing.md) page.
+* Details can be found in a separate [Testing](testing/testing.md) page.
