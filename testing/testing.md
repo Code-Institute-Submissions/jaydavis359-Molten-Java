@@ -2,7 +2,7 @@
 
 ## Code Validators
 
-* [W3C HTML Validator](https://validator.w3.org/) was used to check all HTML content, this raised errors in my recipe page because the images of the cocktails did not have 'ALT' attributes, because of this I had to add an image description field in my 'Add Recipe' form, make an image description addition to my app.py and mongodb collection and manually input descriptions for existing recipes! once this was done, no more errors were found.
+* [W3C HTML Validator](https://validator.w3.org/) was used to check all HTML content.
 
 * [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) was used to test the CSS content, this passed with no errors.
 
