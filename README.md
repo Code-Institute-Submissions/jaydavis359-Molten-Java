@@ -1,108 +1,87 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Molten Java
 
-Welcome jaydavis359,
+### Molten Java is the ficticious business website of Molten Java.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Molten java is a fictitious coffee shop and coffee roasters business in cork city.
+This website serves as en e-commerce platform for the business, as well as being a social point of contact with existing and potential customers.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+## UX
 
-## Gitpod Reminders
+### This website is for:
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+* Visitors to the website are ideally coming to purchase coffee and coffee accessories from the business, but the interesting blog posts and opportunity to sign up for update emails may also make it a more informational social resource also.
 
-`python3 -m http.server`
+### User Stories
 
-A blue button should appear to click: _Make Public_,
+* As a visitor to this website, I would like the navagation to be instantly understandable.
+* As a visitor I would like an inventory of stock to beowse through.
+* As a visitor I would like the ability to search for products by name.
+* As a visitor I would like the ability to register for an account for secure purchasing.
+* As a visitor I would like an email sign up option, to be kept up to date with site news.
+* As a visitor I would like the option to follow the site on social media platforms.
 
-Another blue button should appear to click: _Open Browser_.
+* As a menber of the website, I would like to 'Login' to my profile and view past purchases.
+* As a member of the website, I would the ability to manage and update my shipping and payment details.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+* As an Admin of the website, I would like all of the above capabilities, but also the ability to add categories of products and the products themselves to the website, including price ratings and images.
 
-A blue button should appear to click: _Make Public_,
+## Design
 
-Another blue button should appear to click: _Open Browser_.
+* Colors - The entire site is rendered in 'earthy' tones of black, brown, orange and white, This was a considered design choice to reflect the tones of coffee beans, brewed coffee and 'creama' which are very similar colors.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+* Font - The font I have used for the site is [Roboto](http://fonts.google.com/specimen/Roboto), this font covers all text elements, I selected this font because of its versatility, in that it is modern, but also clear and bold in its various weights.
 
-To log into the Heroku toolbelt CLI:
+* Icons - The Icons used in this project are taken from [Font Awesome](https://fontawesome.com/), which hosts a diverse set of options.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### Wireframes
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+## Features
 
-------
+* The navagation and footer with sign up extend across all pages.
 
-## Release History
+### Home page 
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+* The Home page features a full screen 'hero image' which makes it very clear what the focus of the site will be.
+* Overlaying the image is a welcome slogan plus a button, which lets the visitor go straight to the products page.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+### Shop Coffee - Pages 
+* This tab has several coffee product categories, once selected the user is brought to a gallery type page where products can be viewed and clicked on to view more information about them.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+### Accoutrements - Pages 
+* This tab also has several product categories for brewing products and molten java merchandise. As before once selected the user is brought to gallery pages where the products can be viewed in detail.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+### All Products 
+* This tab is a way of viewing all the products together, organised by different criteria, price, name etc.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+### My Account 
+* This clickable link will bring the user , to the login, logout and register options, if the user has admin privileges there will also be a product managment link.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+## Technologies Used
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+## Technologies used
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+### Languages uses
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+* [HTML5](https://en.wikipedia.org/wiki/HTML5)
+* [CSS3](https://en.wikipedia.org/wiki/CSS)
+* [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+* [Python](https://www.python.org/)
+* [Jquery](https://jquery.com/)
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+### Frameworks, libraries etc.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+* [Gitpod](https://gitpod.io/) - Developer environment was used to write the code.
+* [Github](https://github.com/) - Used to host the project.
+* [Heroku](https://heroku.com/) - Used to deploy the finished project.
+* [Bootstrap](https://getbootstrap.com/) - Used for responsive grid system, utilizing components for navagation, cards and forms etc.
+* [Django](https://www.djangoproject.com/) - Used as the backbone of the project with front and backend utilities.
+* [emailJs](https://www.emailjs.com/) - Used to foward email from email sign up in footer.
+* [Google Fonts](https://fonts.google.com/) - Used for the websites various fonts.
+* [Font Awsome](https://fontawesome.com/) - The Font Awesome library was used for the icons the website.
+* [favicon.io](favicon.io) - Was used to create the favicon for the browser tab.
+* [TinyJPG](https://tinyjpg.com/) - Used to compress the websites images.
+* [Balsamiq](https://balsamiq.com/) - Used to create wireframes.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+## Testing
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+* Details can be found in a separate [Testing](Testing.md/testing.md) page.

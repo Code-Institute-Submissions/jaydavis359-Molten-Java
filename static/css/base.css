@@ -129,17 +129,6 @@ input[name='q']::placeholder {
     color: #aab7c4;
 }
 
-.about-photo {
-    width: 90%;
-    height: 90%;
-    object-fit: contain;
-    padding-top: 2rem;
-}
-
-.about-text {
-    padding-top: 2rem;
-    text-align: justify;
-}
 
 /* ------------------------------- bootstrap toasts */
 
