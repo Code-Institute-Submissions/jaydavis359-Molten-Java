@@ -1,5 +1,10 @@
 # Molten Java
 
+![Heading Responsive image](Testing/homepage.jpg)
+
+[View the Live website here](https://jay359-molten-java.herokuapp.com/)
+
+
 ### Molten Java is the ficticious business website of Molten Java.
 
 Molten java is a fictitious coffee shop and coffee roasters business in cork city.
