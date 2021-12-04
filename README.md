@@ -91,6 +91,7 @@ This website serves as en e-commerce platform for the business, as well as being
 
 ## Testing
 
+<<<<<<< HEAD
 * Details can be found in a separate [Testing](Testing.md/testing.md) page.
 
 ## Credits
@@ -103,3 +104,6 @@ This website serves as en e-commerce platform for the business, as well as being
 * Product images were taken from their various companies websites.
 
 ## This website is for educational purposes only.
+=======
+* Details can be found in a separate [Testing](testing/testing.md) page.
+>>>>>>> d851249988d5d879e18821b4b7095e3e051deb38
