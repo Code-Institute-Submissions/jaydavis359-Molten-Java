@@ -1,6 +1,6 @@
 # Molten Java
 
-![Heading Responsive image](Testing/homepage.jpg)
+![Heading Responsive image](testing/homepage.jpg)
 
 [View the Live website here](https://jay359-molten-java.herokuapp.com/)
 
@@ -80,6 +80,8 @@ This website serves as en e-commerce platform for the business, as well as being
 * [Heroku](https://heroku.com/) - Used to deploy the finished project.
 * [Bootstrap](https://getbootstrap.com/) - Used for responsive grid system, utilizing components for navagation, cards and forms etc.
 * [Django](https://www.djangoproject.com/) - Used as the backbone of the project with front and backend utilities.
+* [Stripe](https://stripe.com/) - Used for handling the payments on the site.
+* [Amazon Web Servies](http://aws.amazon.com/) - Cloud platform for hosting static and media files.
 * [emailJs](https://www.emailjs.com/) - Used to foward email from email sign up in footer.
 * [Google Fonts](https://fonts.google.com/) - Used for the websites various fonts.
 * [Font Awsome](https://fontawesome.com/) - The Font Awesome library was used for the icons the website.
@@ -90,3 +92,14 @@ This website serves as en e-commerce platform for the business, as well as being
 ## Testing
 
 * Details can be found in a separate [Testing](Testing.md/testing.md) page.
+
+## Credits
+
+* [W3Schools](https://www.w3schools.com/) and [Stack Overflow](https://stackoverflow.com/) for all kinds of help during the project.
+
+### Images
+
+* Images were taken from [unsplash](https://unsplash.com/).
+* Product images were taken from their various companies websites.
+
+## This website is for educational purposes only.
