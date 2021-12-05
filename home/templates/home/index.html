@@ -1,6 +1,7 @@
 {% extends "base.html" %}
 {% load static  %}
 
+
 {% block page_header %}
 <div class="container header-container">
     <div class="row">
@@ -53,6 +54,27 @@
             </p>
         </div>
     </div>
+    <div class="container map-container">
+        <div id="map"></div>
+    </div>
 </div>
+
+{% endblock %}
+
+{% block postloadjs %}
+
+<script>
+    function initMap() {
+      var location = { lat: 51.894989, lng: -8.468967 };
+      var map = new google.maps.Map(document.getElementById("map"), {
+        zoom: 4,
+        center: location
+      });
+    }
+</script>
+
+<script async defer src="https://maps.googleapis.com/maps/api/
+js?key=AIzaSyBbRAnmKeljUC8YcrIxaKRe9lqQgpfkfsY&callback=initMap"></script>
+
 
 {% endblock %}
