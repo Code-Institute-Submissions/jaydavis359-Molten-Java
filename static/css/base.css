@@ -18,6 +18,49 @@ a {
     color: white;
 }
 
+.page-footer {
+    background-color: black;
+    color: white;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+  
+  .fa-envelope {
+    margin-right: 6px;
+    margin-left: 8px;
+  }
+  
+  .form-control {
+    margin-right: 4px;
+    color: white;
+  }
+  
+  .email-submit-button {
+    height: 48px;
+    margin-left: 4px;
+  }
+  
+  .submit-button {
+    color: black;
+  }
+  
+  .social-links {
+    display: inline-flex;
+    float: right;
+  }
+  
+  .social-links li a i {
+    font-size: 30px;
+    color: white;
+    margin-right: 20px;
+    padding-top: 2rem;
+  }
+  
+  .social-links i:hover {
+    color: white;
+  }
 
 /* from Bulma */
 .icon {
@@ -203,57 +246,7 @@ input[name='q']::placeholder {
 .form-control{
     color: black !important;
 }
-  /* Footer customization */
-.page-footer {
-    background-color: black;
-  
-  }
-  
-  .footer-content {
-    background-color: black;
-    color: white;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    padding-left: 4rem;
-    padding-right: 4rem;
-  }
-  
-  .fa-envelope {
-    margin-right: 6px;
-    margin-left: 8px;
-  }
-  
-  .form-control {
-    margin-right: 4px;
-    color: white;
-  }
-  
-  .email-submit-button {
-    height: 48px;
-    margin-left: 4px;
-  }
-  
-  .submit-button {
-    color: black;
-  }
-  
-  .social-links {
-    display: inline-flex;
-    float: right;
-  }
-  
-  .social-links li a i {
-    font-size: 30px;
-    color: white;
-    margin-right: 20px;
-    padding-top: 2rem;
-  }
-  
-  .social-links i:hover {
-    color: white;
-  }
-  
-  
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
