@@ -62,10 +62,12 @@
                                         <option value="1kg">1kg</option>
                                     </select>
                                 </div>
- 
+                            {% endif %}
+                            {% with product.has_grind as g %}
+                            {% if g %}
                                 <div class="col-12">
                                     <p><strong>Grind Size:</strong></p>
-                                    <select class="form-control text-black rounded-0 w-50" name="product_grind" id='id_product_grind_size'>
+                                    <select class="form-control text-black rounded-0 w-50" name="product_grind" id='id_product_grind'>
                                         <option value="wholebean" selected>Wholebean</option>
                                         <option value="aeropress">Aeropress</option>
                                         <option value="espresso">Espresso</option>
@@ -120,6 +122,7 @@
             </div>
         </div>
     </div>
+    {% endwith %}
 {% endblock %}
 
 {% block postloadjs %}
