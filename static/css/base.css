@@ -344,7 +344,7 @@ input[name='q']::placeholder {
     margin: 3rem;
 }
 a.read-more {
-    color: burlywood; !important
+    color: burlywood;
 }
 
 /* fixed top navbar only on medium and up */
