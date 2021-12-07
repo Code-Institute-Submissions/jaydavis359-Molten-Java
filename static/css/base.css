@@ -77,10 +77,11 @@ a {
 
 .main-logo-link {
     width: fit-content;
+    color: burlywood;
 }
 
 .main-logo-link:hover {
-    color: #fd8026;
+    color: #222;
 }
 
 .fa-mug-hot:before {
@@ -339,8 +340,11 @@ input[name='q']::placeholder {
 
 /* Blog Page */
 
-a .read-more {
-    color:#fd8026; !important
+.post-block {
+    margin: 3rem;
+}
+a.read-more {
+    color: burlywood; !important
 }
 
 /* fixed top navbar only on medium and up */
