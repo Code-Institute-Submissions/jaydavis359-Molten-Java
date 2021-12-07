@@ -11,7 +11,7 @@
         </div>
     </div>
 {% endblock %}
-
+<!-- Blog Post Container -->
 {% block content %}
 <div class="overlay"></div>
     <div class="container">
@@ -24,6 +24,8 @@
     <p>{{ post.body }}</p>
 
     <hr>
+
+    <!-- Comments Container -->
     <h4 class="subtitle">Comments:</h4>
 
     {% for comment in post.comments.all %}

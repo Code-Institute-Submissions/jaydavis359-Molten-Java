@@ -89,7 +89,7 @@ a {
 
 
 .shop-now-button {
-    background: #fd8026;
+    background: burlywood;
     color: white;
     min-width: 260px;
 }
@@ -337,6 +337,11 @@ input[name='q']::placeholder {
     border-radius: 0;
 }
 
+/* Blog Page */
+
+a .read-more {
+    color:#fd8026; !important
+}
 
 /* fixed top navbar only on medium and up */
 @media (min-width: 992px) {
