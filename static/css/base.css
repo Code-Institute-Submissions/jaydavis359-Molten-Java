@@ -144,7 +144,7 @@ a {
 	top: 0;
 	left: 0;
 	position: fixed;
-	background: gray;
+	background: darkslategray;
     opacity: 0.5;
 	z-index: -1;
 }
