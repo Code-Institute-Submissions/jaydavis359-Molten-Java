@@ -13,6 +13,11 @@ body {
 #delivery-banner {
     background-color: black;
 }
+
+.search-icon {
+    color: white;
+}
+
 h1 {
     color: white;
 }
