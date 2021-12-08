@@ -358,6 +358,16 @@ a.read-more {
     color: burlywood;
 }
 
+pre {
+    white-space: pre-wrap;
+}
+
+.comment-button {
+    margin-left: 2.5rem;
+    margin-bottom: 2rem;
+    background-color: white;
+}
+
 /* fixed top navbar only on medium and up */
 @media (min-width: 992px) {
     .fixed-top-desktop-only {
