@@ -37,12 +37,6 @@
                         </a>
                     </p>
                     {% endif %}
-                    {% if product.rating %}
-                        <small><i class="fas fa-star mr-1"></i>{{ product.rating }} / 5</small>
-                        <a href="{% url 'rate-product' product.id %}" class="waves-effect waves-light btn"></i>Rate It!</a>
-                    {% else %}
-                        <small>No Rating</small>
-                    {% endif %}
                     {% if request.user.is_superuser %}
                         <small class="ml-3">
                             <a href="{% url 'edit_product' product.id %}">Edit</a> | 
@@ -124,23 +118,22 @@
         </div>
     </div>
     <h4 class="subtitle">Reviews:</h4>
-            {% for review in reviews %}
-        <article class="media">
-            <div class="media-content">
-                <div class="content">
-                    <p>
-                        <strong>{{ review.user.name }}</strong> <small>{{ review.date_added }}</small>
-                        <br>
-                        <i>{{ review.review }}</i>
-                    </p>
-                </div>
-            </div>
-        </article>
-    {% empty %}
+
+    <div class="reviews-wrapper">
+        {% for reviews in product.reviews.all %}
+        <div class="notification">
+            <p>
+                <strong>Date: </strong>{{ review.date_added|date:"Y-m-d "}},
+                <strong>Stars: </strong>{{ review.stars }}
+            </p>
+            {{ review.content }}
+        </div>
+        {% empty %}
         <div class="notification">
             <p>No reviews yet!</p>
         </div>
-    {% endfor %}
+        {% endfor %}
+    </div>
 
     <hr>
 

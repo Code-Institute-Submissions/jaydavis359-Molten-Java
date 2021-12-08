@@ -1,6 +1,5 @@
 from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.http import HttpResponse, HttpResponseRedirect
-from django.template import loader
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from django.db.models import Q
@@ -9,9 +8,6 @@ from django.db.models.functions import Lower
 from .models import Product, Category
 from .forms import ProductForm
 from products.models import Product
-
-
-from products.forms import RatingForm
 
 import requests
 
@@ -143,29 +139,3 @@ def delete_product(request, product_id):
     product.delete()
     messages.success(request, 'Product deleted!')
     return redirect(reverse('products'))
-
-# Rating Views
-
-def Rate(request, product_id):
-    product = get_object_or_404(Product, pk=product_id)
-    user = request.user
-
-    if request.method == 'POST':
-        form = RatingForm(request.POST, request.FILES, instance=product)
-        if form.is_valid():
-            rate = form.save(commit=False)
-            rate.user = user
-            rate.product = product
-            rate.save()
-            return HttpResponseRedirect(reverse('product-details', args=[product_id]))
-    else:
-        form = RatingForm()
-
-    template = loader.get_template('ratings.html')
-
-    context = {
-        'form': form,
-        'product': product,
-    }
-
-    return HttpResponse(template.render(context, request))

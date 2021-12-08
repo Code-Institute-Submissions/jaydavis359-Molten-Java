@@ -34,24 +34,11 @@ class Product(models.Model):
 
 # Model for Rating System
 
-RATING_CHOICES = [
-    (1, '1 - Yikes!'),
-    (2, '2 - Not Good'),
-    (3, '3 - Good'),
-    (4, '4 - Excellent'),
-    (5, '5 - Sublime'),
-]
+class ProductReview(models.Model):
+    product = models.ForeignKey(Product, related_name='reviews', on_delete=models.CASCADE)
+    user = models.ForeignKey(User, related_name='reviews', on_delete=models.CASCADE)
 
+    content = models.TextField(blank=True, null=True)
+    stars = models.IntegerField()
 
-
-class Review(models.Model):
-    user = models.ForeignKey(User, on_delete=models.CASCADE)
-    product = models.ForeignKey(Product, on_delete=models.CASCADE)
-    date = models.DateTimeField(auto_now_add=True)
-    review = models.TextField(max_length=1000, blank=True)
-    rating = models.PositiveSmallIntegerField(choices=RATING_CHOICES)
-    helpful = models.PositiveIntegerField(default=0)
-    unhelpful = models.PositiveIntegerField(default=0)
-
-    def __str__(self):
-        return self.user.username
+    date_added = models.DateTimeField(auto_now_add=True)
