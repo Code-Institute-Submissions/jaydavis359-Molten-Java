@@ -196,6 +196,18 @@ input[name='q']::placeholder {
     margin-bottom: 20px;
 }
 
+.review-box {
+    width: 23rem;
+    height: 10rem;
+}
+
+.star-rating {
+    color: gold;
+}
+
+.review-submit-button {
+    background-color: white;
+}
 /* ------------------------------- bootstrap toasts */
 
 .message-container {

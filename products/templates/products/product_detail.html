@@ -117,17 +117,17 @@
             </div>
         </div>
     </div>
-    <div class="container">
+    <div class="container review-container">
     <h4 class="subtitle">Reviews:</h4>
 
     <div class="reviews-wrapper">
         {% for reviews in product.reviews.all %}
         <div class="notification space-below">
             <p>
-                <strong>Date:</strong>{{ review.date_added|date:"Y-m-d" }},
-                <strong>Stars:</strong>{{ review.stars }}
+                <strong>Date:</strong><small>{{ reviews.date_added }}</small>,
+                <strong><i class="fas fa-star star-rating"></i></strong>{{ reviews.stars }}
             </p>
-            {{ review.content }}
+            <i>{{ reviews.content }}<i>
         </div>
         {% empty %}
         <div class="notification space-below">
@@ -146,7 +146,7 @@
                 <div class="control">
                     <div class="select">
                         <select name="stars">
-                            <option value="1">1</option>
+                            <option value="1">2</option>
                             <option value="2">2</option>
                             <option value="3" selected>3</option>
                             <option value="4">4</option>
@@ -158,12 +158,12 @@
             <div class="field">
                 <label>Review</label>
                 <div class="control">
-                    <textarea class="textarea" name="content"></textarea>
+                    <textarea class="textarea review-box" name="content"></textarea>
                 </div>
             </div>
             <div class="field">
                 <div class="control">
-                    <button class="button is-success rounded-0">Submit</button>
+                    <button class="button is-success review-submit-button rounded-0">Submit</button>
                 </div>
             </div>
         </form>
