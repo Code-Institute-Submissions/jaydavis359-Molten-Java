@@ -46,13 +46,10 @@ a {
   .email-submit-button {
     height: 48px;
     margin-left: 4px;
-  }
-  
-  .submit-button {
     color: white;
     margin: 5px;
-    background-color: burlywood;
   }
+  
   .submit-button:hover {
       color: #222;
   }
@@ -190,6 +187,12 @@ input[name='q']::placeholder {
 #map {
     width: 500px;
     height: 300px;
+}
+
+/* Products page */
+
+.notification.space-below {
+    margin-bottom: 20px;
 }
 
 /* ------------------------------- bootstrap toasts */
