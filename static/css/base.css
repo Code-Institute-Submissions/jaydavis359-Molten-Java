@@ -44,10 +44,11 @@ a {
   }
   
   .email-submit-button {
-    height: 48px;
+    height: 40px;
     margin-left: 4px;
     color: white;
     margin: 5px;
+    background-color: burlywood;
   }
   
   .submit-button:hover {
