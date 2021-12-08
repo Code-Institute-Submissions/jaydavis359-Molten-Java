@@ -33,5 +33,4 @@ urlpatterns = [
     path('<slug:slug>/', post_detail, name='post_detail'),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
-
-
+handler404 = 'molten_java.views.error_404'
