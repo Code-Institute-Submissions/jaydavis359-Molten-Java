@@ -21,14 +21,6 @@
     <link rel="icon" type="image/png" sizes="32x32" href="{{ MEDIA_URL }}favicon-32x32.png">
     <link rel="stylesheet" type="text/css" href="{% static 'css/base.css' %}">
 
-    <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js">
-    </script>
-    <script type="text/javascript">
-   (function(){
-         emailjs.init("user_wcsbfNta9lkfYK0WPKaXD");
-    })();
-    </script>
     {% endblock %}
 
     {% block extra_css %}
@@ -41,6 +33,13 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <!-- Stripe -->
     <script src="https://js.stripe.com/v3/"></script>
+    <script src="{% static 'js/forms.js' %}"></script>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script>
+        (function(){
+         emailjs.init("user_wcsbfNta9lkfYK0WPKaXD");
+        })();
+    </script>
     {% endblock %}
 
     {% block extra_js %}
@@ -156,7 +155,7 @@
                     <div class="mail-content-container">
                         <h5 class="mr-auto"><i class="fa fa-envelope" aria-hidden="true"></i>Sign up to hear from us:</h5>
                         <form onsubmit="return sendMail(this);">
-                            <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email:"
+                            <input type="email" name="emailaddress" id="emailaddress" class="form-control" placeholder="Email:"
                                 required />
                             <div class="form-row text-center">
                                 <button class="waves-effect waves-light btn white submit-button">Submit</button>
@@ -189,13 +188,13 @@
                 </div>
             </div>
     </footer>
+      
+    {% block postloadjs %}
 
-      {% block postloadjs %}
       <script type="text/javascript">
           $('.toast').toast('show');
       </script>
 
-      <script src="{% static 'js/sendEmail.js' %}"></script>
-    {% endblock %}
+       {% endblock %}
     </body>
 </html>
