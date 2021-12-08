@@ -69,7 +69,7 @@ a {
     padding-top: 2rem;
   }
   
-  .social-links:hover {
+  .social-links i:hover {
     color: burlywood;
   }
 
@@ -182,6 +182,14 @@ a.category-badge > span.badge:hover {
 
 input[name='q']::placeholder {
     color: #aab7c4;
+}
+
+
+/* Map */
+
+#map {
+    width: 500px;
+    height: 300px;
 }
 
 /* ------------------------------- bootstrap toasts */
