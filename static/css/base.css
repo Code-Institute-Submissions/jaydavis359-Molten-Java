@@ -102,6 +102,9 @@ a {
     padding: 1rem;
 }
 
+.fa-search:before {
+    color: white;
+}
 
 .shop-now-button {
     background: burlywood;
