@@ -280,6 +280,17 @@ input[name='q']::placeholder {
     color: black !important;
 }
 
+/* error handling */
+
+.error-container {
+    padding-top: 20rem;
+    padding-bottom: 20rem;
+}
+
+.four {
+    color: burlywood;
+}
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
