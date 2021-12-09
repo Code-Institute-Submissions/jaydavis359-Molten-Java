@@ -188,13 +188,6 @@ input[name='q']::placeholder {
 }
 
 
-/* Map */
-
-#map {
-    width: 500px;
-    height: 300px;
-}
-
 /* Products page */
 
 .notification.space-below {
