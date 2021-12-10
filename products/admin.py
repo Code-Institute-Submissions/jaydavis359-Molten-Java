@@ -4,6 +4,7 @@ from .models import ProductReview
 
 # Register your models here.
 
+
 class ProductAdmin(admin.ModelAdmin):
     list_display = (
         'sku',

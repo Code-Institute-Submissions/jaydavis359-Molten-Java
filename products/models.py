@@ -34,6 +34,7 @@ class Product(models.Model):
 
 # Model for Rating System
 
+
 class ProductReview(models.Model):
     product = models.ForeignKey(Product, related_name='reviews', on_delete=models.CASCADE)
     user = models.ForeignKey(User, related_name='reviews', on_delete=models.CASCADE)
