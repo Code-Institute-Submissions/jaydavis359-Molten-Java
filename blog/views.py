@@ -3,10 +3,12 @@ from django.shortcuts import render, redirect
 from .forms import CommentForm
 from .models import Post
 
+
 def blog(request):
     posts = Post.objects.all()
 
     return render(request, 'blog/blog.html', {'posts': posts})
+
 
 def post_detail(request, slug):
     post = Post.objects.get(slug=slug)
