@@ -106,13 +106,6 @@ a {
     color: white;
 }
 
-.nav-link-color {
-    color:burlywood;
-}
-.nav-link-color:hover {
-    color: white;
-}
-
 .shop-now-button {
     background: burlywood;
     color: white;
@@ -145,6 +138,17 @@ a {
 .btn-black:focus {
     background: #222;
     color: white;
+}
+
+.text-black {
+    color: #000 !important;
+}
+
+.nav-link-color {
+    color:burlywood !important;
+}
+.nav-link-color:hover {
+    color: white !important;
 }
 
 
@@ -354,7 +358,7 @@ input[name='q']::placeholder {
 
 @media (max-width: 991px) {
     .fa-search:before {
-        color: black;
+        color: white;
     }
 }
 
