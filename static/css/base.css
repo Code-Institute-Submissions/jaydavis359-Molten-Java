@@ -15,7 +15,7 @@ body {
 }
 
 .text-black {
-    color: burlywood;
+    color: burlywood !important;
 }
 
 .search-icon {
@@ -127,7 +127,7 @@ a {
 
 .btn-outline-black {
     background: white;
-    color: black !important; /* use important to override link colors for <a> elements */
+    color: black !important;
     border: 1px solid black;
 }
 
@@ -148,9 +148,6 @@ a {
     color: white;
 }
 
-.text-black {
-    color: #000 !important;
-}
 
 .border-black {
     border: 1px solid black !important;
