@@ -19,7 +19,7 @@ This website serves as en e-commerce platform for the business, as well as being
 ### User Stories
 
 * As a visitor to this website, I would like the navagation to be instantly understandable.
-* As a visitor I would like an inventory of stock to beowse through.
+* As a visitor I would like an inventory of stock to browse through.
 * As a visitor I would like the ability to search for products by name.
 * As a visitor I would like the ability to register for an account for secure purchasing.
 * As a visitor I would like an email sign up option, to be kept up to date with site news.
