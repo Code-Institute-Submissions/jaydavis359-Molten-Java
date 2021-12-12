@@ -190,6 +190,17 @@ input[name='q']::placeholder {
     color: #aab7c4;
 }
 
+/* New product Card */
+
+.callout-card {
+    max-width: 25rem;
+    background-color: #222;
+}
+
+.callout-card-btn {
+    background-color: burlywood;
+    border-color: black;
+}
 
 /* Products page */
 
