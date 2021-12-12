@@ -162,6 +162,9 @@
 {% endblock %}
 
 {% block postloadjs %}
+<script>
+    $('.toast').toast('show');
+</script>
 {{ block.super }}
 {% include 'products/includes/quantity_input_script.html' %}
 {% endblock %}

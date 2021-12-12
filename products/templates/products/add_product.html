@@ -43,6 +43,9 @@
 {% endblock %}
 
 {% block postloadjs %}
+    <script>
+        $('.toast').toast('show');
+    </script>
     {{ block.super }}
     <script>
         $('#new-image').change(function() {

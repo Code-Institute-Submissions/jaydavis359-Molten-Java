@@ -121,6 +121,9 @@
 {% endblock %}
 
 {% block postloadjs %}
+    <script>
+        $('.toast').toast('show');
+    </script>
     {{ block.super }}
     <script>
 		$('.btt-link').click(function(e) {
