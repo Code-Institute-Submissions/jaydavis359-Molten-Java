@@ -14,10 +14,6 @@ body {
     background-color: black;
 }
 
-.text-black {
-    color: burlywood !important;
-}
-
 .search-icon {
     color: white;
 }
@@ -110,6 +106,9 @@ a {
     color: white;
 }
 
+.nav-link-color {
+    color:burlywood;
+}
 .nav-link-color:hover {
     color: white;
 }
