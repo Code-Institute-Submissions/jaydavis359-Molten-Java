@@ -197,11 +197,20 @@ input[name='q']::placeholder {
     background-color: #222;
 }
 
+.callout-card-container {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
 .callout-card-btn {
     background-color: burlywood;
     border-color: black;
 }
 
+.callout-card-btn:hover {
+    background: #222;
+    color: white;
+}
 /* Products page */
 
 .notification.space-below {
