@@ -14,6 +14,10 @@ body {
     background-color: black;
 }
 
+.text-black {
+    color: burlywood;
+}
+
 .search-icon {
     color: white;
 }
@@ -103,6 +107,10 @@ a {
 }
 
 .fa-search:before {
+    color: white;
+}
+
+.nav-link-color:hover {
     color: white;
 }
 
@@ -346,6 +354,12 @@ input[name='q']::placeholder {
   .container {
     max-width: 80%;
   }
+}
+
+@media (max-width: 991px) {
+    .fa-search:before {
+        color: black;
+    }
 }
 
 /* Allauth form formatting */
