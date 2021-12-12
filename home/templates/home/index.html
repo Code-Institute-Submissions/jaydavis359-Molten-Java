@@ -30,18 +30,18 @@
 <hr>
 <div class="container callout-card-container">
 <div class="card callout-card m-auto rounded-0" >
-    <img class="card-img-top rounded-0" src="{{ MEDIA_URL }}Indonesia.jpg" alt="Bag of Indonesia Coffee">
+    <img class="card-img-top rounded-0" src="{{ MEDIA_URL }}Indonesia-new.jpg" alt="Bag of Indonesia Coffee">
     <div class="card-body">
       <h5 class="card-title">New!</h5>
       <p class="card-text">Try Our New Single Origin Coffee</p>
-      <a href="" class="btn btn-primary rounded-0 callout-card-btn">Order Now</a>
+      <a href="{% url 'products' %}" class="btn rounded-0 callout-card-btn">Order Now</a>
     </div>
   </div>
   </div>
 <div>
     <h2 class="page-heading text-center">About Molten Java</h2>
 </div>
-<div class="container">
+<div class="container about-container">
     <div class="row">
         <div class="col-lg-6 sm-12">
             <img class="about-image" src="{{ MEDIA_URL }}rawkkim-hwYwbz7TAhU-unsplash.jpg" alt="Photo of inside the cafe" style="max-width: 90%">
