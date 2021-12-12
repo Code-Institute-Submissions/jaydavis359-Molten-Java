@@ -24,15 +24,17 @@ This website serves as en e-commerce platform for the business, as well as being
 * As a visitor I would like the ability to register for an account for secure purchasing.
 * As a visitor I would like an email sign up option, to be kept up to date with site news.
 * As a visitor I would like the option to follow the site on social media platforms.
+* As a visitor I would like the ability to comment on the blog posts I have read.
 
 * As a menber of the website, I would like to 'Login' to my profile and view past purchases.
 * As a member of the website, I would the ability to manage and update my shipping and payment details.
+* As a member of the website, I would like to be able to read and review products.
 
-* As an Admin of the website, I would like all of the above capabilities, but also the ability to add categories of products and the products themselves to the website, including price ratings and images.
+* As an Admin of the website, I would like all of the above capabilities, but also the ability to add categories of products and the products themselves to the website, including price ratings and images, and the ability to delete reviews and blog comments which may be inappropriate or not in keeping with the sites ethos.
 
 ## Design
 
-* Colors - The entire site is rendered in 'earthy' tones of black, brown, orange and white, This was a considered design choice to reflect the tones of coffee beans, brewed coffee and 'creama' which are very similar colors.
+* Colors - The entire site is rendered in contemporary tones of black, gold(burlywood) and white, This was a considered design choice to reflect the tones of other contemporary coffee brands, which suit the product quite well.
 
 * Font - The font I have used for the site is [Roboto](http://fonts.google.com/specimen/Roboto), this font covers all text elements, I selected this font because of its versatility, in that it is modern, but also clear and bold in its various weights.
 
@@ -58,12 +60,16 @@ This website serves as en e-commerce platform for the business, as well as being
 ### All Products 
 * This tab is a way of viewing all the products together, organised by different criteria, price, name etc.
 
+### Blog - Page
+* This tab brings you directly to the blog page, where blog posts can be seen in chronological order.
+
 ### My Account 
 * This clickable link will bring the user , to the login, logout and register options, if the user has admin privileges there will also be a product managment link.
 
-## Technologies Used
+### Page Footer
+* This area consists of an email sign up form and social media links.
 
-## Technologies used
+## Technologies Used
 
 ### Languages uses
 
@@ -88,10 +94,11 @@ This website serves as en e-commerce platform for the business, as well as being
 * [favicon.io](favicon.io) - Was used to create the favicon for the browser tab.
 * [TinyJPG](https://tinyjpg.com/) - Used to compress the websites images.
 * [Balsamiq](https://balsamiq.com/) - Used to create wireframes.
+* [GitPod](https://gitpod.io/) - The virtual IDE workspace used to build the site.
+* [GitHub](https://github.com) - Used to store the code created for version control.
+* [Heroku](https://heroku.com/)- Used to deploy finished site.
 
 ## Testing
-
-<<<<<<< HEAD
 * Details can be found in a separate [Testing](Testing.md/testing.md) page.
 
 ## Credits
@@ -105,5 +112,3 @@ This website serves as en e-commerce platform for the business, as well as being
 
 ## This website is for educational purposes only.
 =======
-* Details can be found in a separate [Testing](testing/testing.md) page.
->>>>>>> d851249988d5d879e18821b4b7095e3e051deb38
