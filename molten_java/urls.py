@@ -18,7 +18,7 @@ from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
 
-from blog.views import blog, post_detail
+from blog.views import post_detail
 
 
 urlpatterns = [
