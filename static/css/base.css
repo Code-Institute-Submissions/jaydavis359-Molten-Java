@@ -151,6 +151,10 @@ a {
     color: white !important;
 }
 
+.navbar-dark .navbar-toggler {
+    border-color: burlywood;
+}
+
 
 .border-black {
     border: 1px solid black !important;
