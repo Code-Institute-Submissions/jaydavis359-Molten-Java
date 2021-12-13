@@ -9,7 +9,7 @@
 
 * [JSHint](https://jshint.com/) was used to check the javaScript content, this returned no errors, but a number of 'Undefined variable' messages, which I think were because of using Jquery.
 
-* [PEP8](http://pep8online.com/) was used to check for PEP8 compliance in the python file, this found multiple issues with "missing whitespace around operator", after googling this I found that these errors can be 'false positive' so I left them as the were, there were also a couple of instances of 'line too long' warnings, but I didnt want to change the code on these in case it broke functionality.
+* [PEP8](http://pep8online.com/) was used to check for PEP8 compliance in the python file and flake8 was used in the IDE terminal, pep8 found multiple issues with "missing whitespace around operator", after googling this I found that these errors can be 'false positive' so I left them as the were. with flake8 there were a couple of instances of 'line too long' warnings in code I had written, but I didnt want to change the code on these in case it broke functionality. As a side note, both utilities produced different issues which also left me unsure if and how they should be addressed.
 
 * [Chrome DevTools](https://developer.chrome.com/docs/devtools/) was an absolutely invaluable resource in the projects development. it helped with multiple alignment issues. I also used the 'Lighthouse' utility, with most pages scoring over 80%, although the various product pages had impared performance scores, this I think has something to do with caching from AWS.
 

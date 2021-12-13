@@ -84,6 +84,10 @@ This website serves as en e-commerce platform for the business, as well as being
 * On entering an email address and submitting it, an email is sent to a gmail address I have setup (moltenjava21@gmail.com), requesting to join the mailing list.
 * Several clickable icons for social media sites will take you to those sites.
 
+### Checkout
+* This page lets the user pay and order products they have added to their shopping bag.
+* For testing purposes you can use the card details: "4242 4242 4242 4242 mm/yy: 0424, cvc: 242, zip: 42424", to pay for your order.
+
 ### Admin CRUD functionality
 
 * An Admin user has full control of all content on the site, such as:
