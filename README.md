@@ -84,8 +84,6 @@ This website serves as en e-commerce platform for the business, as well as being
 * On entering an email address and submitting it, an email is sent to a gmail address I have setup (moltenjava21@gmail.com), requesting to join the mailing list.
 * Several clickable icons for social media sites will take you to those sites.
 
-
-
 ### Admin CRUD functionality
 
 * An Admin user has full control of all content on the site, such as:
@@ -94,6 +92,10 @@ This website serves as en e-commerce platform for the business, as well as being
 * adding and editing/deleting blog post comments.
 * adding and editing/deleting product reviews.
 * The ability to delete users profiles completly.
+
+## Features left to add
+* In the coffee products page a dropdown option is there for three different size of bags, and although the size is stored in the checkout, the price for each size is the same, which would obviously not be ideal in a real world situation, so in the future a product/size/price model could be made to fix this. I unfortunately didn't have the time to figure it out.
+* I was also going to add the option for the customer to choose the type of grind for their selected coffee beans, this I also didn't have time to implement, and removed the option from the finished website, but the option still exists in the 'django admin' page.
 
 ## Technologies Used
 
@@ -132,7 +134,7 @@ This website serves as en e-commerce platform for the business, as well as being
 
 
 ## Testing
-* Details can be found in a separate [Testing](Testing.md/testing.md) page.
+* Details can be found in a separate [Testing](testing.md) page.
 
 ## Credits
 
@@ -142,6 +144,8 @@ This website serves as en e-commerce platform for the business, as well as being
 ### Images
 
 * Images were taken from [unsplash](https://unsplash.com/).
+  - Home page cover image which extends across the website by 🇸🇮 Janko Ferlič on unsplash.
+  - Image in about section of homepage by rawkkim on unsplash
 * Product images were taken from their various companies websites.
 
 ## This website is for educational purposes only.

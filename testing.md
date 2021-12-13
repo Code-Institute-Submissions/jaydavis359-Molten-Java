@@ -20,37 +20,37 @@
 ## User Stories Testing
 
 * As a visitor to this website, I would like the navagation to be instantly understandable.
-- The Layout of the sites navagation follows modern design standards and all navagation buttons are placed where the user would expect them to be.
+  - The Layout of the sites navagation follows modern design standards and all navagation buttons are placed where the user would expect them to be.
 
 * As a visitor I would like an inventory of stock to browse through.
-- This is addresed by the various 'Products' pages, which give a gallery like browsing experience.
+  - This is addresed by the various 'Products' pages, which give a gallery like browsing experience.
 
 * As a visitor I would like the ability to search for products by name.
-- This can by done using the search bar on desktop view and by tapping the search icon on mobile view.
+  - This can by done using the search bar on desktop view and by tapping the search icon on mobile view.
 
 * As a visitor I would like the ability to register for an account for secure purchasing.
-- This can be done by clicking the 'my account' tab and then the 'register' option.
+  - This can be done by clicking the 'my account' tab and then the 'register' option.
 
 * As a visitor I would like an email sign up option, to be kept up to date with site news.
-- This can be done on the footer of every page of the site as there is an email sign up box with form validation.
+  - This can be done on the footer of every page of the site as there is an email sign up box with form validation.
 
 * As a visitor I would like the option to follow the site on social media platforms.
-- This can be done by clicking on the various social media icons also in the footer of every page.
+  - This can be done by clicking on the various social media icons also in the footer of every page.
 
 * As a visitor I would like the ability to comment on the blog posts I have read.
-- Users have this option available without the need to login at the bottom of each blog post page.
+  - Users have this option available without the need to login at the bottom of each blog post page.
 
 * As a menber of the website, I would like to 'Login' to my profile and view past purchases.
-- Registered users have this facility to them on their 'Profile' page once they have logged in.
+  - Registered users have this facility to them on their 'Profile' page once they have logged in.
 
 * As a member of the website, I would the ability to manage and update my shipping and payment details.
-- Registered users can also update their shipping details on their 'Profile' page once they have logged in.
+  - Registered users can also update their shipping details on their 'Profile' page once they have logged in.
 
 * As a member of the website, I would like to be able to read reviews and review products myself.
-- This can be done on each individual product page, allowing the user to give a star rating and leave a written comment if wished. The user must be logged in tho have this option.
+  - This can be done on each individual product page, allowing the user to give a star rating and leave a written comment if wished. The user must be logged in tho have this option.
 
 * As an Admin of the website, I would like all of the above capabilities, but also the ability to add categories of products and the products themselves to the website, including price ratings and images, and the ability to delete reviews and blog comments which may be inappropriate or not in keeping with the sites ethos.
-- A user with 'Admin' privilages, has full CRUD control of the site through the 'django Administration' control panel, which can be accessed by adding /admin to the websites url. 
+  - A user with 'Admin' privilages, has full CRUD control of the site through the 'django Administration' control panel, which can be accessed by adding /admin to the websites url. 
 
 ## Aditional Testing
 
