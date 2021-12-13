@@ -62,6 +62,10 @@ and from each page back.
 * Email sign up box will only accept a valid email address and returns a confirmation when the submit button is pressed, as intended.
 * Social media icons in the footer all direct to their respective websites in a new tab as intended.
 
+## Bugs
+
+* After logging into the site, it sometimes takes a few seconds or a page refresh before a user can click the profile and logout tabs on the my account menu, I haven't figures out why this is, as the links work as intended after a refresh.
+
 ## Issues
 
 * Editing CSS was a bit time consuming, as I could not see the changes unless I pushed them to github and then to heroku, perhaps this is because the static files were now on AWS, there is probably an easy fix for this, but I could not spend any more time trying to figure it out!
