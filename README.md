@@ -28,19 +28,27 @@ This website serves as en e-commerce platform for the business, as well as being
 
 * As a menber of the website, I would like to 'Login' to my profile and view past purchases.
 * As a member of the website, I would the ability to manage and update my shipping and payment details.
-* As a member of the website, I would like to be able to read and review products.
+* As a member of the website, I would like to be able to read reviews and review products myself.
 
 * As an Admin of the website, I would like all of the above capabilities, but also the ability to add categories of products and the products themselves to the website, including price ratings and images, and the ability to delete reviews and blog comments which may be inappropriate or not in keeping with the sites ethos.
 
 ## Design
 
-* Colors - The entire site is rendered in contemporary tones of black, gold(burlywood) and white, This was a considered design choice to reflect the tones of other contemporary coffee brands, which suit the product quite well.
+![color Scheme](wireframes/Color-Scheme.jpg)
+
+* Colors - The entire site is rendered in contemporary tones of black, charcoal, gold and white, This was a considered design choice to reflect the tones of other contemporary coffee brands, which suit the product quite well.
 
 * Font - The font I have used for the site is [Roboto](http://fonts.google.com/specimen/Roboto), this font covers all text elements, I selected this font because of its versatility, in that it is modern, but also clear and bold in its various weights.
 
 * Icons - The Icons used in this project are taken from [Font Awesome](https://fontawesome.com/), which hosts a diverse set of options.
 
 ### Wireframes
+
+* [Homepage](wireframes/homepage.pdf)
+* [Products page](wireframes/products.pdf)
+* [Single product page](wireframes/single-product.pdf)
+* [Blog Homepage](wireframes/blog-home.pdf)
+* [Blog article view](wireframes/blog-article.pdf)
 
 ## Features
 
@@ -49,7 +57,8 @@ This website serves as en e-commerce platform for the business, as well as being
 ### Home page 
 
 * The Home page features a full screen 'hero image' which makes it very clear what the focus of the site will be.
-* Overlaying the image is a welcome slogan plus a button, which lets the visitor go straight to the products page.
+* Overlaying the image is a welcome slogan plus a button, which lets the visitor go straight to the coffee page.
+* A centered card features an image of a new coffee product with a link to go to that products page.
 
 ### Shop Coffee - Pages 
 * This tab has several coffee product categories, once selected the user is brought to a gallery type page where products can be viewed and clicked on to view more information about them.
@@ -60,14 +69,31 @@ This website serves as en e-commerce platform for the business, as well as being
 ### All Products 
 * This tab is a way of viewing all the products together, organised by different criteria, price, name etc.
 
+### Product Reviews
+* On accessing an individual product details, a user has the opportunity to leave a star rating and a review of that product. The user needs to be registered and logged in to access this facility.
+
 ### Blog - Page
 * This tab brings you directly to the blog page, where blog posts can be seen in chronological order.
+* On accessing the individual blog posts a user is also give the opportunity to comment on that post. the user does not need to be logged in to do this.
 
 ### My Account 
 * This clickable link will bring the user , to the login, logout and register options, if the user has admin privileges there will also be a product managment link.
 
 ### Page Footer
 * This area consists of an email sign up form and social media links.
+* On entering an email address and submitting it, an email is sent to a gmail address I have setup (moltenjava21@gmail.com), requesting to join the mailing list.
+* Several clickable icons for social media sites will take you to those sites.
+
+
+
+### Admin CRUD functionality
+
+* An Admin user has full control of all content on the site, such as:
+* adding and editing/deleting new products and categories of products.
+* adding and editing/deleting blog posts.
+* adding and editing/deleting blog post comments.
+* adding and editing/deleting product reviews.
+* The ability to delete users profiles completly.
 
 ## Technologies Used
 
@@ -98,12 +124,20 @@ This website serves as en e-commerce platform for the business, as well as being
 * [GitHub](https://github.com) - Used to store the code created for version control.
 * [Heroku](https://heroku.com/)- Used to deploy finished site.
 
+### Database
+* All products, categories, blog posts were added to the site using the Django admin 
+
+## Deployment
+
+
+
 ## Testing
 * Details can be found in a separate [Testing](Testing.md/testing.md) page.
 
 ## Credits
 
 * [W3Schools](https://www.w3schools.com/) and [Stack Overflow](https://stackoverflow.com/) for all kinds of help during the project.
+* Youtube channel[Coding wit stein](https://www.youtube.com/c/CodeWithStein/) For help with the models for product reviews and blog comments
 
 ### Images
 
