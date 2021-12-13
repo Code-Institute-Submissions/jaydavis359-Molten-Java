@@ -122,9 +122,6 @@ This website serves as en e-commerce platform for the business, as well as being
 * [favicon.io](favicon.io) - Was used to create the favicon for the browser tab.
 * [TinyJPG](https://tinyjpg.com/) - Used to compress the websites images.
 * [Balsamiq](https://balsamiq.com/) - Used to create wireframes.
-* [GitPod](https://gitpod.io/) - The virtual IDE workspace used to build the site.
-* [GitHub](https://github.com) - Used to store the code created for version control.
-* [Heroku](https://heroku.com/)- Used to deploy finished site.
 
 ### Database
 * All products, categories, blog posts were added to the site using the Django admin 
