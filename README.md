@@ -127,7 +127,7 @@ This website serves as en e-commerce platform for the business, as well as being
 * [TinyJPG](https://tinyjpg.com/) - Used to compress the websites images.
 * [Balsamiq](https://balsamiq.com/) - Used to create wireframes.
 
-### Database
+### Adding Content to the site
 * All products, categories, blog posts were added to the site using the Django admin 
 
 ## Testing
@@ -140,8 +140,8 @@ The website was built using [Gitod](https://gitpod.io), its code was then pushed
 
 To clone the project: 
 
-1. From the application's repository, click the "code" button and download the a zip file containing the repository.
-    Alternatively, you can clone the repository using the following line in your terminal:
+1. From the application's repository, click the "code" button and download a zip file containing the repository.
+    Alternatively, you can clone the repository using the following command in your terminal:
 
     ``` 
     git clone https://github.com/jaydavis359/Molten-Java.git
@@ -196,7 +196,7 @@ To clone the project:
     Select the Hobby Dev - Free plan and click Submit
 
 1. Scroll back up and click "settings". Scroll down and click "Reveal config vars". Set up the same variables as in your env.py ():
-    !You shouldn't set the DEBUG variable in under config vars, only in your env.py to prevent DEBUG being active on live website. 
+    You should never set the DEBUG variable in under config vars, only in your env.py to prevent DEBUG being active on live website. 
 
     ```
     AWS_ACCESS_KEY_ID = "AWS_ACCESS_KEY_ID"
@@ -333,7 +333,7 @@ This will allow your site to use Postgres in deployment and sqlite3 in developme
 ## Credits
 
 * [W3Schools](https://www.w3schools.com/) and [Stack Overflow](https://stackoverflow.com/) for all kinds of help during the project.
-* Youtube channel[Code with stein](https://www.youtube.com/c/CodeWithStein/) For help with the logic for product reviews and blog comments
+* Youtube channel [Code with stein](https://www.youtube.com/c/CodeWithStein/) For help with the logic for product reviews and blog comments
 
 ### Images
 
